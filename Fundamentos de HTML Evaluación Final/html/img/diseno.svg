@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <g class="layer">
+  <title>Layer 1</title>
+  <ellipse cx="296.5" cy="182.5" fill="#FF0000" id="svg_7" rx="162" ry="99" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5"/>
+  <path d="m182.5,110.5c35,76 -4,135 -4,135c0,0 86,-47 86,-47c0,0 18,-44 -48,-73c-66,-29 -34,-15 -34,-15z" fill="#00ff00" id="svg_8" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5"/>
+  <text fill="#000000" font-family="Fantasy" font-size="24" id="svg_9" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(3.63401 0 0 2.76582 -656.51 -241.621)" x="264.652465" xml:space="preserve" y="160.105914">RYML</text>
+ </g>
+</svg>
