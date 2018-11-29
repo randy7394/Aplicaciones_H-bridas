@@ -1,0 +1,209 @@
+body {
+ background-color: #02010a;
+ font-family: 'Dancing Script', cursive;
+}
+
+.cabecera {
+  background-color: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+  animation: cabecera 1s;
+}
+
+@keyframes cabecera {
+  0%{
+    margin-top: 150%;
+  }
+  60%{
+    margin-top: -5%;
+  }
+  100%{
+    margin-top: 0%;
+  }
+}
+
+.cabecera h1 {
+  color: white;
+  text-shadow: 2px 2px #02010a;
+}
+
+#menu a {
+  color: white;
+}
+
+.inicio {
+  text-decoration: none;
+}
+
+.imagen-central {
+  width: 100%;
+  background-color: #82c3a6;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.imagen-central img {
+  width: 80%;
+  box-shadow: 2px 2px 2px #02010a;
+}
+
+.imagen-secundaria {
+  width: 100%;
+  border: solid 1px black;
+  background-color: #d5c75f;
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+.imagen-secundaria a:visited {
+  color: inherit;
+}
+
+.paisajes img{
+  width: 80%;
+  box-shadow: 2px 2px 2px #02010a;
+  transition-property: transform;
+  transition-duration: 1s;
+}
+
+#paisajes:hover {
+  transform: rotate(10deg);
+  box-shadow:2px 2px 2px #82c3a6;
+  border: solid 1px;
+}
+
+.retratos img{
+  width: 80%;
+  box-shadow: 2px 2px 2px #02010a;
+  transition-property: transform;
+  transition-duration: 1s;
+}
+
+#retratos:hover {
+  transform: translate(20px,-5px);
+  box-shadow:2px 2px 2px #82c3a6;
+  border: solid 1px;
+}
+
+.pie-de-pagina {
+  width: 100%;
+  background-color: #C6d5c5;
+  display: flex;
+  flex-flow: row wrap;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.pie-de-pagina div{
+  text-align: center;
+}
+
+.redes-sociales img {
+  width: 20%;
+  border-radius: 10px;
+}
+
+@media all and (max-width: 900px) {
+  .contenido {
+    width: 100%;
+  }
+
+  .cabecera h1 {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+  }
+
+  #menu {
+    text-align: center;
+    margin-top: -2%;
+    padding-bottom: 2%;
+  }
+
+  #menu a {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+	.paisajes {
+		width: 100%;
+		order: 1;
+	}
+
+	.retratos {
+		width: 100%;
+		order: 2;
+	}
+
+  .contacto{
+    width: 100%;
+    order: 3;
+  }
+
+  .terminos {
+    width: 100%;
+    order: 4;
+  }
+
+  .redes-sociales {
+    width: 100%;
+    order: 5;
+  }
+
+  .derechos {
+    width: 100%;
+    order: 6;
+  }
+}
+
+@media all and (max-width: 1500px) and (min-width: 900px) {
+  .contenido {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cabecera h1 {
+    margin-left: 2%;
+    padding-top: 2%;
+  }
+
+  #menu {
+    margin-top: -5%;
+    padding-bottom: 2%;
+    margin-right: 2%;
+    text-align: right;
+  }
+
+  #menu a {
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+  }
+
+	.paisajes {
+		width: 50%;
+	}
+
+	.retratos {
+		width: 50%;
+	}
+
+  .contacto{
+    width: 25%;
+  }
+
+  .terminos {
+    width: 25%;
+  }
+
+  .redes-sociales {
+    width: 25%;
+  }
+
+  .derechos {
+    width: 25%;
+  }
+
+}
